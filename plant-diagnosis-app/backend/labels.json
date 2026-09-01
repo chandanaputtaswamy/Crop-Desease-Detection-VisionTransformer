@@ -1,0 +1,13 @@
+{
+  "_readme": "Replace these placeholder names with your real class names, in the exact order your training script used (check your training dataset's class_to_idx / ImageFolder.classes). crop has 14 entries, disease has 22 entries.",
+  "crop": [
+    "crop_0", "crop_1", "crop_2", "crop_3", "crop_4", "crop_5", "crop_6",
+    "crop_7", "crop_8", "crop_9", "crop_10", "crop_11", "crop_12", "crop_13"
+  ],
+  "disease": [
+    "disease_0", "disease_1", "disease_2", "disease_3", "disease_4", "disease_5",
+    "disease_6", "disease_7", "disease_8", "disease_9", "disease_10", "disease_11",
+    "disease_12", "disease_13", "disease_14", "disease_15", "disease_16", "disease_17",
+    "disease_18", "disease_19", "disease_20", "disease_21"
+  ]
+}

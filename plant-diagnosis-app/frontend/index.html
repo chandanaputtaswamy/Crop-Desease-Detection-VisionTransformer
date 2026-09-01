@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plant Diagnosis - Swin Model</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🌿 Plant Diagnosis</h1>
+      <p>Upload a leaf photo to identify the crop and detect disease</p>
+    </header>
+
+    <main>
+      <section class="upload-card" id="uploadCard">
+        <input type="file" id="fileInput" accept="image/*" hidden />
+        <div id="dropZone" class="drop-zone">
+          <img id="preview" src="" alt="" hidden />
+          <div id="dropText">
+            <span class="icon">📷</span>
+            <p>Click to select an image, or drag & drop it here</p>
+          </div>
+        </div>
+        <button id="predictBtn" disabled>Analyze Image</button>
+      </section>
+
+      <section class="results-card" id="resultsCard" hidden>
+        <h2>Results</h2>
+
+        <div class="result-block">
+          <h3>Crop</h3>
+          <div class="top-pick" id="cropTop">-</div>
+          <ul class="bar-list" id="cropList"></ul>
+        </div>
+
+        <div class="result-block">
+          <h3>Disease</h3>
+          <div class="top-pick" id="diseaseTop">-</div>
+          <ul class="bar-list" id="diseaseList"></ul>
+        </div>
+
+        <div class="result-block">
+          <h3>Part Score</h3>
+          <div class="top-pick" id="partScore">-</div>
+        </div>
+      </section>
+
+      <div id="statusMsg" class="status-msg"></div>
+    </main>
+
+    <footer>
+      <label for="apiUrl">Backend URL:</label>
+      <input type="text" id="apiUrl" value="http://localhost:8000" />
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
