@@ -7,3 +7,5 @@ the colab notebook:https://github.com/Shivani19-desgin/crop_disease_detection
 NoteBook: https://colab.research.google.com/drive/1ortEjIgKjZ4A_OEcJqzjjxpq1uBrgVUB
 
 the final model which has been trained on the final dataset drive link: https://drive.google.com/file/d/19XnUJaMajLUe_JmkLpd7sFxmBXnWQWnz/view?usp=sharing 
+
+the final model which has been trained on the final dataset drive link2 final: https://drive.google.com/file/d/1-PqynOiIemFo1InsUFhZUXLzQpsKn1FV/view?usp=sharing
